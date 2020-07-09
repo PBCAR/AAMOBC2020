@@ -2,7 +2,7 @@ Package: AA-MOBC_2020
 Type: Package
 Title: Repo for software developed for the AA-MOBC study.
 Version: 0.1.0
-Author: Who wrote it
+Author: Dezi Ahuja
 Maintainer: The package maintainer <ahujad1@mcmaster.ca>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
