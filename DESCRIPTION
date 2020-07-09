@@ -1,9 +1,9 @@
-Package: aamobc2
+Package: AA-MOBC_2020
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Repo for software developed for the AA-MOBC study.
 Version: 0.1.0
 Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: The package maintainer <ahujad1@mcmaster.ca>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
