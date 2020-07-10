@@ -250,9 +250,7 @@ visualize_networks <- function(
           #)
         {
 
-          # print(ego.n)
-
-          # ego.n = 40
+           print(ego.n)
 
           current.edge.list <- subset(master.edge.list,
                                       egoID == ego.n)[,-1]
@@ -372,7 +370,7 @@ visualize_networks <- function(
           #guides(color =  guide_legend(order = 1),
           #      size = guide_legend(order = 2))
 
-          print(counter)
+          #print(counter)
           plot.list[[counter]] <<- sample.sna
 
 
