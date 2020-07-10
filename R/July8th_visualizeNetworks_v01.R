@@ -154,7 +154,7 @@ visualize_networks <- function(
         #
         # network.metrics$Centrality [i] <- graph.centrality$centralization
 
-        sample.sna  <- ggraph(routes_tidy)+
+        sample.sna  <- ggraph(routes_tidy, circular = T)+
           geom_edge_link()+
           geom_node_point(aes(
             size =`Frequency of Monthly Alcohol Consumption`,
@@ -332,7 +332,7 @@ visualize_networks <- function(
 
           counter <- counter + 1
 
-          sample.sna  <- ggraph(routes_tidy)+
+          sample.sna  <- ggraph(routes_tidy, circular = T)+
             geom_edge_link()+
             geom_node_point(aes(
               size =`Frequency of Monthly Alcohol Consumption`,
