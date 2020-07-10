@@ -1,7 +1,7 @@
 esnar_omits <-
     function(master.edge.list = master.edge.list,
              master.node.list = master.node.list,
-             sna.rawdata_egoIDs = sna.rawdata$record_id){
+             sna.rawdata_egoIDs = sna.rawdata_egoIDs){
 
       while (T) {
 
